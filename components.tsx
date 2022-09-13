@@ -199,6 +199,8 @@ export function PostPage({ post, state }: PostPageProps) {
           <h1 class="text-4xl text-gray-900 dark:text-gray-100 font-bold">
             {post.title}
           </h1>
+          {state.readtime &&
+            <p>{post.readTime} min read</p>}
           <Tags tags={post.tags} />
           <p class="mt-1 text-gray-500">
             {(post.author || state.author) && (
@@ -218,7 +220,7 @@ export function PostPage({ post, state }: PostPageProps) {
           />
         </article>
 
-        {state.section}
+        {state.section && state.section(post)}
 
         {state.footer || <Footer author={state.author} />}
       </div>

@@ -44,8 +44,8 @@ export interface BlogSettings {
   header?: VNode;
   /** Whether to show the header on post pages */
   showHeaderOnPostPage?: boolean;
-  /** The element to use as section */
-  section?: VNode;
+  /** The element to use as section. Access to Post props. */
+  section?: (post: Post) => VNode;
   /** The element to use as footer */
   footer?: VNode;
   /** Custom CSS */
@@ -76,6 +76,8 @@ export interface BlogSettings {
   port?: number;
   /** The hostname to serve the blog on */
   hostname?: string;
+  /** Whether to display readtime or not */
+  readtime?: boolean;
 }
 
 export interface BlogState extends BlogSettings {
@@ -95,4 +97,5 @@ export interface Post {
   ogImage?: string;
   tags?: string[];
   allowIframes?: boolean;
+  readTime: number;
 }
