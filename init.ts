@@ -71,7 +71,7 @@ const DENO_JSONC_CONTENTS = `{
 const IMPORT_MAP_JSON_NAME = "import_map.json";
 const IMPORT_MAP_JSON_CONTENTS = `{
   "imports": {
-    "blog": "https://deno.land/x/blog@0.4.2/blog.tsx"
+    "blog": "https://deno.land/x/deno_blog/blog.tsx"
   }
 }
 `;
