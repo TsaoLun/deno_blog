@@ -87,7 +87,7 @@ function errorHandler(err: unknown) {
 /** The main function of the library.
  *
  * ```jsx
- * import blog, { ga } from "https://deno.land/x/blog/blog.tsx";
+ * import blog, { ga } from "https://deno.land/x/deno_blog/blog.tsx";
  *
  * blog({
  *   title: "My Blog",

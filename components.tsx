@@ -236,7 +236,7 @@ function Footer(props: { author?: string }) {
           Powered by{" "}
           <a
             class="inline-flex items-center gap-1 underline hover:text-gray-800 dark:hover:text-gray-200 transition-colors"
-            href="https://deno.land/x/blog"
+            href="https://deno.land/x/deno_blog"
           >
             Deno Blog
           </a>
