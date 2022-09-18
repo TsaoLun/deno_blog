@@ -45,7 +45,6 @@ import "https://esm.sh/prismjs@1.28.0/components/prism-kotlin?no-check";
 import "https://esm.sh/prismjs@1.28.0/components/prism-python?no-check";
 import "https://esm.sh/prismjs@1.28.0/components/prism-php?no-check";
 
-
 export { UnoCSS };
 export type UnoConfig = typeof UnoCSS extends (
   arg: infer P | undefined,
