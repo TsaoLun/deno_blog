@@ -31,11 +31,20 @@ export {
 export { Feed, type Item as FeedItem } from "https://esm.sh/feed@4.2.2";
 export { default as removeMarkdown } from "https://esm.sh/remove-markdown@0.5.0";
 
-// Add syntax highlighting support for C by default
+// Add syntax highlighting support for Programming Languages
 import "https://esm.sh/prismjs@1.28.0/components/prism-c?no-check";
 import "https://esm.sh/prismjs@1.28.0/components/prism-typescript?no-check";
 import "https://esm.sh/prismjs@1.28.0/components/prism-go?no-check";
 import "https://esm.sh/prismjs@1.28.0/components/prism-rust?no-check";
+import "https://esm.sh/prismjs@1.28.0/components/prism-swift?no-check";
+import "https://esm.sh/prismjs@1.28.0/components/prism-java?no-check";
+import "https://esm.sh/prismjs@1.28.0/components/prism-cpp?no-check";
+import "https://esm.sh/prismjs@1.28.0/components/prism-dart?no-check";
+import "https://esm.sh/prismjs@1.28.0/components/prism-csharp?no-check";
+import "https://esm.sh/prismjs@1.28.0/components/prism-kotlin?no-check";
+import "https://esm.sh/prismjs@1.28.0/components/prism-python?no-check";
+import "https://esm.sh/prismjs@1.28.0/components/prism-php?no-check";
+
 
 export { UnoCSS };
 export type UnoConfig = typeof UnoCSS extends (
